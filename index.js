@@ -21,7 +21,7 @@ const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'ani1029.1.2.7.8.0.d.0.0.1.0.a.2.
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYmUzM2ZjNjFiMDQ0NzI2OTkxMGZiZThmYmI0YzljMzYiLCJ0IjoiZDJlY2Q3ZGQtZDAwMy00NTE0LTg3ZjAtNTM5YWYxYThlZWJlIiwicyI6Ik5EUmxNakZtTldVdFlqRmlOQzAwWldRMkxUZzRaalF0TVdOak1qQTJZalZsTTJKaiJ9';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
 const CFIP = process.env.CFIP || 'cf.090227.xyz';        // 节点优选域名或优选ip  
-const CFPORT = process.env.CFPORT || 8001;                   // 节点优选域名或优选ip对应的端口
+const CFPORT = process.env.CFPORT || 8801;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || '';                        // 节点名称
 
 // 创建运行文件夹
